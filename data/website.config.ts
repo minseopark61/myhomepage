@@ -32,27 +32,26 @@ export interface HomepageSection {
 export type FontStyle = "sans" | "serif" | "mono";
 
 export const personalInfo: PersonalInfo = {
-  name: "Hiroshi Ishii",
+  name: "Minseo Park",
   profilePicture: "/profile.jpg", //optional
-  role: "Professor",
-  university: "MIT Media Lab",
-  universityWebsite: "https://www.zju.edu.cn/",
+  role: "Ph.D. Student",
+  university: "KAIST ID CIxD Lab",
+  universityWebsite: "http://cixd.kaist.ac.kr/",
   socialMedia: [
-    { name: "Email", url: "https://linkedin.com" },
-    { name: "Twitter", url: "https://twitter.com/anxndsgn" },
-    {
-      name: "GitHub",
-      url: "https://github.com/anxndsgn/academic-homepage-template",
-    },
-    { name: "LinkedIn", url: "https://linkedin.com" },
+    { name: "Email", url: "minseopark61@kaist.ac.kr" },
+   // {
+   //   name: "GitHub",
+   //   url: "https://github.com/anxndsgn/academic-homepage-template",
+   // },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/minseo-park-8175381a8/" },
     { name: "ORCID", url: "https://orcid" },
-    { name: "Google Scholar", url: "https://scholar.google.com" },
+    { name: "Google Scholar", url: "https://scholar.google.com/citations?user=M5APi1IAAAAJ&hl=ko" },
   ],
 };
 
 export const websiteInfo: WebsiteInfo = {
   title: personalInfo.name,
-  description: "HCI researcher",
+  description: "Design-oriented HCI researcher",
 };
 
 export const navigations: NavigationItem[] = [
